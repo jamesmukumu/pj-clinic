@@ -1,0 +1,567 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.main{
+ min-height: 100vh;
+    width: 100%;
+    background-color: mintcream;
+    text-align: center;
+
+    position: relative;
+}
+.nav{
+    height: 150px;
+    width: 100%;
+ background-color: aliceblue;
+ position: relative;
+}
+.fa-hand-holding-medical{
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    font-size: 60px;
+    color: midnightblue;
+}
+.title{
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+ul{
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul li{
+    padding-left: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+ul li:hover{
+    color: crimson;
+    transition: 0.5s;
+}
+.content{
+    width: 100%;
+    height: 100vh;
+background: url(https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+
+   
+}
+.contentt{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+ 
+    left: 70px;
+}
+.p1{
+    color: darkblue;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.h1{
+    color: black;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.p2{
+color: mediumblue;
+    font-size: 30px;
+    font-family:  'Arial Narrow Bold';
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+   background-color: dodgerblue;
+   color: darkblue;
+   
+  
+
+}
+.btn:hover{
+    background-color: whitesmoke;
+    transition: 0.5s;
+
+}
+.flex{
+    width: 60%;
+    min-height: 60vh;
+   
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+
+    
+}
+.t{
+    width: 270px;
+    height: 300px;
+    text-align: center;
+    margin-top: 15px;
+   margin-left: 10px;
+    background-color: azure;
+   
+}
+
+.two{
+    min-height: 100vh;
+    width: 100%;
+  background-color: honeydew;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    /* this section is also used in section 3 */
+}
+
+.p{
+    font-size: 20px;
+    font-family: Georgia;
+}
+.cont{
+    width: 100%;
+    height: 250px;
+   
+    text-align: center;
+}
+.cont p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Georgia;
+    font-size: 24px;
+}
+.cont h1{
+font-size: 40px;
+font-family:  Tahoma;
+
+}
+.fa-quote-left{
+ font-size: 60px;   
+}
+.appr{
+    width: 100%;
+    height: 300px;
+   
+   position: absolute;
+   bottom: 40x;
+}
+.rec{
+    width: 600px;
+    height: 600px;
+    margin-right: 10px;
+background: url(https://images.unsplash.com/photo-1608979827489-2b855e79debe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVjZXB0aW9ufGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+
+}
+
+
+.fa-check-double{
+    color: crimson;
+}
+.reccc{
+    width: 600px;
+    height: 600px;
+    background: url(https://ld-wp73.template-help.com/wordpress/prod_27003/v3/wp-content/uploads/2019/11/Rectangle-2.1-2.png);
+    background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.recc{
+    width: 600px;
+    height: 600px;
+    margin-left: 30px;
+    background: url(https://www.nvdocs.com/wp-content/uploads/2016/06/AdobeStock_62533493.jpeg);
+    background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+.re{
+    width: 600px;
+    height: 600px;
+    
+    margin-left: 10px;
+  text-align: center;
+    position: relative;
+    /* this div which is flexed is to be used on all display flex divs */
+}
+.rer{ width: 600px;
+    height: 600px;
+    
+    margin-left: 10px;
+  text-align: center;
+    position: relative;}
+
+
+.ig{
+    width: 100px;
+
+    height: 100px;
+    background: url(https://ld-wp73.template-help.com/wordpress/prod_27003/v3/wp-content/uploads/2019/11/Ellipse.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    
+   
+}
+.desc{
+    width: 250px;
+    height: 100px;
+   position: absolute;
+   bottom: 0px;
+   right: 70px;
+    
+}
+.three{
+width: 100%;
+min-height: 100vh;
+background-color: honeydew;
+position: relative;
+
+}
+.doctors{
+    width: 100%;
+    height: 30%;
+    margin-top:10px ;
+    text-align: center;
+  
+}
+.fa-bars{
+    visibility: hidden;
+}
+.fa-xmark{
+    visibility: hidden;
+}
+
+.imgg2{
+    width: 100%;
+    height: 350px;
+}
+.imgg3{
+    width: 100%;
+    height: 350px;
+
+}
+.imgg1{
+    width: 100%;
+    height: 50%;
+    height: 350px;
+}
+.imgg{
+    width: 100%;
+    height: 350px;
+    
+}
+.imgg img{
+height: 100%;
+    width: 100%;
+}
+
+.pic{
+    width: 400px;
+    height: 700px;
+   
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    text-align: center;
+    position: relative;
+    
+}
+.logo{
+    width: 100%;
+    min-height: 100vh;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+.logos{
+    width: 300px;
+    height: 500px;
+    
+    margin-left: 10px;
+    text-align: center;
+}
+.logos h1{
+    font-size: 40px;
+    font-family:  'Trebuchet MS';
+}
+.logos p{
+    padding-top: 50px;
+    font-size: 24px;
+}
+.btnn{
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+   background-color: dodgerblue;
+   color: darkblue;
+   position: absolute;
+bottom: 0;
+}
+.btnn:hover{
+    background-color: whitesmoke;
+    transition: 0.5s;
+}
+
+.main2{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: honeydew;
+    position: relative;
+}
+
+
+@media(max-width:800px){
+   .p1{
+    font-size: 17px;
+    font-family: Cambria;
+   }
+   .h1{
+    font-size: 20px;
+    font-family:  'Lucida Sans Unicode',;
+   }
+   .main{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+   }
+
+   .fa-hand-holding-medical{
+    font-size: 25px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+   }
+   .title{
+    position: absolute;
+    right: 0;
+    top: 30px;
+   }
+.contentt{
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+.flex{
+     flex-wrap: wrap;
+    flex-direction: column-reverse;
+    width: 40%;
+    min-height: 90vh; 
+    
+}
+.t{
+  height: 270px;
+  width: 200px;
+  position: absolute;
+  bottom: 150px;
+  left: 50px;
+}
+.content{
+    width: 360px;
+    height: 100vh;
+}
+
+.two{
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+}
+.rec{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+  
+}
+.rer{
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    left: 0; 
+    bottom: 0;
+}
+
+.re{
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    left: 0;   
+    
+}
+.req{
+    position: absolute;
+    left: 0;
+}
+.recc{
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  
+    height: 260px;
+}
+.reccc{
+    width: 100%;
+    height: 340px;
+    position: absolute;
+bottom: 0;
+}
+.desc{
+position: absolute;
+right: 0;
+}
+.three{
+    width: 100%;
+min-height: 100vh;
+}
+.cont{
+    width: 100%;
+    height: 100px;
+   
+    text-align: center;
+}
+.cont p{
+    font-size: 15px;
+}
+.cont h1{
+    font-size: 17px;
+}
+.logo{
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+.logos{
+    margin-top: 0;
+    width: 100%;
+    height: 300px;
+
+}
+.logos p{
+    font-size: 17px;
+}
+.logos .h1{
+    font-size: 20px;
+}
+.pic{
+    width: 100%;
+}
+.appr{
+    position: absolute;
+    bottom: 600px;
+}
+
+
+
+
+
+
+nav ul{
+    display: block;
+    background-color: whitesmoke;
+    position: absolute;
+    right: 0;
+    width: 60%;
+    bottom: 0;
+    height: 100vh;
+    transform: scaleX(0);
+    z-index: 3;
+    
+}
+nav ul li{
+    
+    display: flex;
+    padding-top: 4em;
+    align-items: center;
+    justify-content: center;
+}
+.fa-xmark{
+    font-size: 23px;
+    margin-left: 1em;
+    margin-top: 1em;
+    visibility: visible;
+    position: absolute;
+    left: 0;
+}
+nav ul.menu{
+    transform: scaleX(1);
+}
+.fa-bars{
+    visibility: visible;
+position: absolute;
+right: 30px;
+top: 70px;
+font-size: 30px;}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
